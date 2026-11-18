@@ -1,0 +1,75 @@
+{
+  "part_a": [
+    {
+      "day": "2026-10-01",
+      "site": "N",
+      "weight": "1.000",
+      "sort_value": 2,
+      "note": "甲"
+    },
+    {
+      "day": "2026-10-01",
+      "site": "N",
+      "weight": "1.000",
+      "sort_value": 2,
+      "note": "甲"
+    },
+    {
+      "day": "2026-10-01",
+      "site": "S",
+      "weight": "3.000",
+      "sort_value": null,
+      "note": "乙"
+    }
+  ],
+  "part_b": [
+    {
+      "day": "2026-10-02",
+      "site": "N",
+      "weight": "4.000",
+      "sort_value": 2,
+      "note": "丙"
+    },
+    {
+      "day": "2026-10-02",
+      "site": "S",
+      "weight": "5.000",
+      "sort_value": 1,
+      "note": "丁"
+    }
+  ],
+  "replacement": [
+    {
+      "day": "2026-10-01",
+      "site": "N",
+      "weight": "9.000",
+      "sort_value": 1,
+      "note": "新仓"
+    }
+  ],
+  "requests": [
+    {
+      "id": "Q1",
+      "snapshot": "S1",
+      "columns": [
+        "site",
+        "weight",
+        "note"
+      ],
+      "sort": [
+        {
+          "field": "sort_value",
+          "direction": "asc",
+          "nulls": "last"
+        }
+      ],
+      "filter": {
+        "day_lte": "2026-10-02"
+      },
+      "chunk_rows": 2,
+      "expires_at": 30,
+      "memory_mib": 192,
+      "temp_bytes": 10485760
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "S1": [
+    "part_a.parquet",
+    "part_b.parquet"
+  ],
+  "S2": [
+    "replacement.parquet"
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "step": 1,
+    "kind": "current",
+    "snapshot": "S2"
+  },
+  {
+    "step": 2,
+    "kind": "collect_unreferenced",
+    "at": 5
+  },
+  {
+    "step": 3,
+    "kind": "expire_session",
+    "at": 31
+  }
+]

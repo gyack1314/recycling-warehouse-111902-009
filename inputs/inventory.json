@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "path": "actions.json",
+      "bytes": 225,
+      "sha256": "f1a1e75206259275b1eb8ea02f2a50ad60fe132075d6cccb8b2ba86f4eacc77a"
+    },
+    {
+      "path": "part_a.parquet",
+      "bytes": 2314,
+      "sha256": "b361ebf92d2bd8a4ef0d5445a0b80537c7e18e1bdb0c99517c8e729cabaea735",
+      "rows": 3
+    },
+    {
+      "path": "part_b.parquet",
+      "bytes": 1537,
+      "sha256": "671c7dd890df1dea2d74cbbc27963c2410aa4b2c1b7e06eb85a2a92c07aa4edf",
+      "rows": 2
+    },
+    {
+      "path": "replacement.parquet",
+      "bytes": 1523,
+      "sha256": "a9bb68d630f882e5371c2e2caa6035adf8f4a359a046b971e50793e8a0e02ed2",
+      "rows": 1
+    },
+    {
+      "path": "requests.parquet",
+      "bytes": 3713,
+      "sha256": "c14101ca42f26b589ea9f589956e3bf2e0b4699557958d5e0458772e85277ec1",
+      "rows": 1
+    },
+    {
+      "path": "seed.json",
+      "bytes": 1349,
+      "sha256": "b5e1526490c942b8a061f96c3bf6d5004584390e2df76d9fd3b4ef72817c8340"
+    },
+    {
+      "path": "versions.json",
+      "bytes": 109,
+      "sha256": "689b4a966771b08157234f188bcf30b5cdd69f6246e0efe4677120d675169a69"
+    }
+  ]
+}
